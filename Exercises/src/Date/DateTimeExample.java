@@ -17,7 +17,7 @@ public class DateTimeExample {
         LocalDateTime currentDateTime = LocalDateTime.now();
         System.out.println("Current time: "+ currentDateTime);
 
-        LocalDate someDay = LocalDate.of(2020, Month.JUNE, 12);
+        LocalDate someDay = LocalDate.of(2020, Month.JUNE, 19);
         System.out.println("Someday: "+ someDay);
 
         LocalTime someTime = LocalTime.of(23, 53);
@@ -25,5 +25,6 @@ public class DateTimeExample {
 
         LocalDateTime otherDateTime = LocalDateTime.of(2021, Month.MARCH, 4, 10, 51, 44);
         System.out.println("Other Date Time: "+ otherDateTime);
+
     }
 }
