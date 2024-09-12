@@ -1,9 +1,9 @@
-package Files;
+package File;
 
 import java.io.File;
 import java.io.IOException;
 
-public class FileDemo {
+public class CreateFile {
     public static void main(String[] args) {
 
         try {
