@@ -102,7 +102,7 @@ public class BitonicSort {
 
     static void print(int[] arr) {//function to print array elements
         for(int i : arr) {
-            System.out.print(i + " ");
+            System.out.print(i +" ");
         }
     }
 
